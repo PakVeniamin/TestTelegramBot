@@ -1,7 +1,6 @@
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram import types, Dispatcher
-from aiogram.dispatcher.filters import Text
 from database.creator import return_data, del_data, full_table_stsrategy
 from keyboards import admin_buttons
 from create_bot import dp, bot

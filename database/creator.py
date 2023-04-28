@@ -1,7 +1,5 @@
 import pandas as pd
-from tabulate import tabulate
-from sqlalchemy import create_engine, select
-from sqlalchemy.orm import Session, sessionmaker
+from sqlalchemy import create_engine
 from database.request import data
 import sqlite3 as sq
 from create_bot import bot

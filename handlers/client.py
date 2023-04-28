@@ -1,7 +1,6 @@
 from aiogram import types, Dispatcher
 from create_bot import bot
 from keyboards import kb_client
-from aiogram.types import ReplyKeyboardRemove
 from database import creator
 
 #@dp.message_handler(commands=['start'])

@@ -1,6 +1,4 @@
 import requests
-import pandas as pd
-import json
 
 def requestmoex(method: str):
     url = "https://iss.moex.com/iss/engines/futures/markets/options/boards/ROPD/securities.json"
